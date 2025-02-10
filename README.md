@@ -55,7 +55,7 @@
 # 任务详情
 | 任务链接 | 任务名称 | 任务奖励 |
 |--------|--------|--------|
-| [Task]() | 体验 Aptos workspace 并反馈使用体验 | 1.5 USDT | 
+| [Aptos Workspace Rabbit Hole](https://www.buildthree.xyz/bounty/0xa644b70faca61ad460626cfe5c189426244206c518ca4e46bb65db641c1ea9de) | 体验 Aptos workspace 并反馈使用体验 | 1.5 USDT | 
 
 --------
 <br>
