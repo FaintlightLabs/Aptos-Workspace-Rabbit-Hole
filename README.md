@@ -44,7 +44,7 @@
   - tests                   // 集成测试目录
     - my-first-test.ts      // 使用 `hello_blockchain` 的集成测试
   - tsconfig.testing.json   // 测试运行器的配置文件（我们当前使用 Mocha）
-  - workspace.config.ts     // Aptos 工作区的配置文件
+  - workspace.config.ts     // Aptos Workspace的配置文件
   - README.md               // 用于填写使用体验和反馈内容 （使用体验和反馈内容不得少于 20 字且为有效反馈, 使用 “好、不错” 等反馈将被判定为无效反馈）
 ```
 
@@ -87,13 +87,13 @@ XXXXXXXXXXXXXXXXXXXX
 
 ## 开始创建
 
-本教程将带你一步步创建一个使用 Aptos 工作区的 TS/JS 项目。完成后，你将拥有一个功能齐全的开发环境，包含一个示例 Move 合约和集成测试。
+本教程将带你一步步创建一个使用 Aptos Workspace的 TS/JS 项目。完成后，你将拥有一个功能齐全的开发环境，包含一个示例 Move 合约和集成测试。
 
 ## 步骤 0：安装先决条件
 
 在开始之前，请确保你已安装所需的依赖项。
 
-请参阅 [Aptos 工作区 README](https://github.com/aptos-labs/workspace/blob/main/workspace/README.md#prerequisites)，安装如 **Docker** 等必要的先决条件。
+请参阅 [Aptos Workspace README](https://github.com/aptos-labs/workspace/blob/main/workspace/README.md#prerequisites)，安装如 **Docker** 等必要的先决条件。
 
 如果你尚未安装 **Node.js** 和 **npm**，请参考官方安装指南：
 
@@ -126,9 +126,9 @@ npm init -y
 }
 ```
 
-## 步骤 2：安装 Aptos 工作区
+## 步骤 2：安装 Aptos Workspace
 
-现在，作为开发依赖项安装 **Aptos 工作区**：
+现在，作为开发依赖项安装 **Aptos Workspace**：
 
 ```bash
 npm install --save-dev @aptos-labs/workspace
@@ -142,9 +142,9 @@ npm install --save-dev @aptos-labs/workspace
   }
 ```
 
-## 步骤 3：初始化 Aptos 工作区
+## 步骤 3：初始化 Aptos Workspace
 
-接下来，通过运行以下命令初始化 Aptos 工作区：
+接下来，通过运行以下命令初始化 Aptos Workspace：
 
 ```bash
 npx aptos-workspace init
@@ -166,7 +166,7 @@ npx aptos-workspace init
   - tests                   // 集成测试目录
     - my-first-test.ts      // 使用 `hello_blockchain` 的集成测试
   - tsconfig.testing.json   // 测试运行器的配置文件（我们当前使用 Mocha）
-  - workspace.config.ts     // Aptos 工作区的配置文件
+  - workspace.config.ts     // Aptos Workspace的配置文件
 ```
 
 如上所示，生成的文件包括一个示例 **Move 合约** 和一个 **集成测试**，可以直接运行。
@@ -197,7 +197,7 @@ Spinning up local networks to run tests, this may take a while...
 
 ## 一切设置完成！🎉
 
-恭喜你！你刚刚完成了第一个 **Aptos 工作区** 项目的设置！
+恭喜你！你刚刚完成了第一个 **Aptos Workspace** 项目的设置！
 
 现在，让我们来探索生成的 Move 合约和集成测试，了解它们是如何工作的。
 
@@ -259,6 +259,6 @@ module hello_blockchain::message {
 - ✅ 扩展 **集成测试**，验证更复杂的工作流。
 - ✅ 尝试不同的 **Aptos SDK 功能**。
 
-进一步探索，请查看 [Aptos 文档](https://aptos.dev/) 和 [Aptos 工作区 GitHub 仓库](https://github.com/aptos-labs/workspace)。
+进一步探索，请查看 [Aptos 文档](https://aptos.dev/) 和 [Aptos Workspace GitHub 仓库](https://github.com/aptos-labs/workspace)。
 
 祝编码愉快！🎉🚀
